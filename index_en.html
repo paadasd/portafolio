@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javier Troncoso - Artist & Multimedia Designer</title>
+  <link rel="shortcut icon" href="assets/diseño/Avatar.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- SIDEBAR -->
+<aside class="sidebar" data-sidebar>
+  <div class="sidebar-info">
+    <figure class="avatar-box">
+      <div class="front">
+        <img src="assets/diseño/Avatar.png" alt="Javier Troncoso">
+      </div>
+      <div class="back">
+        <img src="assets/Yo.jpg" alt="Javier Troncoso">
+      </div>
+    </figure>
+    <div class="info-content">
+      <h1 class="name" title="Javier Troncoso">Javier Troncoso</h1>
+      <p class="title">Artist & Multimedia Designer</p>
+    </div>
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show more</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+  </div>
+  
+  <!-- Controles del sidebar - Solo visibles cuando está expandido -->
+  <div class="sidebar-controls-wrapper">
+    <div class="theme-toggle-container">
+      <div class="sidebar-controls">
+        <!-- Theme Toggle -->
+        <div class="theme-toggle-container">
+          <label class="theme-toggle" for="theme-checkbox">
+            <input type="checkbox" id="theme-checkbox" class="theme-checkbox">
+            <span class="theme-slider">
+              <span class="theme-icon theme-icon-dark">
+                <ion-icon name="moon"></ion-icon>
+              </span>
+              <span class="theme-icon theme-icon-light">
+                <ion-icon name="sunny"></ion-icon>
+              </span>
+            </span>
+            <span class="theme-text">Dark Mode</span>
+          </label>
+        </div>
+
+        <!-- Language Toggle - MODIFIED -->
+        <div class="language-toggle-container">
+          <a href="index.html" class="language-toggle">
+            <span class="language-text">Español</span>
+            <span class="language-flag">🌐</span>
+          </a>
+        </div>
+
+        <!-- Download CV -->
+        <a href="assets/Hoja de vida Javier Troncoso.pdf" class="download-cv-btn" download>
+          <ion-icon name="download-outline"></ion-icon>
+          <span>Download CV</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</aside>
+
+    <!-- Content -->
+    <div class="main-content">
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About Me</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>References</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- About Me -->
+      <article class="about active" data-page="about me">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a multimedia designer passionate about creating impactful visual experiences. My approach combines creativity, innovation, and attention to detail to transform ideas into visual realities. I love exploring new trends in design and technology, always seeking to push the boundaries of what's possible.
+          </p>
+          <p>
+            I enjoy collaborating in teams and contributing creative solutions to each project. I am a proactive, responsible, and committed young professional, passionate about learning and sharing my knowledge. I enjoy teamwork and always strive to contribute innovative ideas.
+          </p>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="service">
+          <h3 class="h3 service-title">Languages</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Spanish</h4>
+                <p class="service-item-text">Native</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">English</h4>
+                <p class="service-item-text">Intermediate - High (B1+)</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">German</h4>
+                <p class="service-item-text">Basic (A1)</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Resume -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <!-- EDUCATION -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor's Degree in Multimedia Design</h4>
+              <span>2023 - Present</span>
+              <p class="timeline-text">
+                Salesian Polytechnic University. As a multimedia designer, I've been able to learn many tools while exploring and expressing my creativity, helping clients understand and capture their ideas.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Adobe Illustrator and After Effects</h4>
+              <span>2015</span>
+              <p class="timeline-text">
+                Blue It, Quito. Certification in professional design and animation tools.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- WORK EXPERIENCE -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Work Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Freelance Designer</h4>
+              <span>2023 - Present</span>
+              <p class="timeline-text">
+                Freelance work in graphic design, digital illustration, animation, and audiovisual production. Collaboration with the Sembrando Esperanza Foundation. Creation of visual identity, branding, and graphic materials. Development of custom illustrations and 2D animations.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Junior Sommelier</h4>
+              <span>2021 - 2023</span>
+              <p class="timeline-text">
+                Open Wine. Acquired knowledge in the world of wine, food, and beverages. Developed customer interaction skills. Quick decision-making and administration. Ability to work under pressure.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service">
+          <h3 class="h3 service-title">Professional Services</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Illustration</h4>
+                <p class="service-item-text">Creation of custom illustrations with unique and creative style for various projects</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+                <p class="service-item-text">Design of visual identity, branding, and graphic materials for brands and companies</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Animation</h4>
+                <p class="service-item-text">2D animations and motion graphics for corporate videos and creative projects</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+                <p class="service-item-text">Professional photo sessions and creative image editing</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Audiovisual Production and Post-production</h4>
+                <p class="service-item-text">Comprehensive video recording, editing, and assembly services, including color correction, visual effects, and sound design</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design and Programming</h4>
+                <p class="service-item-text">Development of responsive websites and modern web applications, from interface design to technical implementation</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hospitality</h4>
+                <p class="service-item-text">Services for restaurants, runner, Junior Sommelier, barista, bartender with personalized service.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- TECHNICAL SKILLS -->
+        <section class="skill">
+          <h3 class="h3 skills-title">Technical Skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Creative Suite</h5>
+              </div>
+              <p class="skill-tools">Photoshop, Illustrator, After Effects, Premiere Pro, InDesign, Animate, Audition, Fresco, Lightroom, Aero</p>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">3D & Animation</h5>
+              </div>
+              <p class="skill-tools">Blender, Cinema 4D, SketchUp, Sketchbook</p>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Development & XR</h5>
+              </div>
+              <p class="skill-tools">HTML5, CSS3, JavaScript, Unity, Virtual Reality, Augmented Reality</p>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn data-category="todos">All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-category="ilustracion-digital">Digital Illustration</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-category="diseno-grafico">Graphic Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-category="animacion-digital">Digital Animation</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-category="fotografia">Photography</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-category="desarrollo-web">Web Development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-category="realidad-aumentada">Augmented Reality</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item data-category="todos">All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-category="ilustracion-digital">Digital Illustration</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-category="diseno-grafico">Graphic Design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-category="animacion-digital">Digital Animation</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-category="fotografia">Photography</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-category="desarrollo-web">Web Development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-category="realidad-aumentada">Augmented Reality</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list" id="project-list">
+            <!-- Projects will be dynamically loaded from portfolio.json -->
+          </ul>
+        </section>
+      </article>
+
+      <!-- PORTFOLIO MODAL -->
+      <div class="modal-container" id="portfolio-modal" data-modal-container>
+        <div class="overlay" data-overlay></div>
+        <section class="portfolio-modal">
+          <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+          <div class="modal-content-wrapper">
+            <div class="modal-media" id="modal-media">
+              <!-- Multimedia content will be inserted here -->
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" id="modal-title"></h4>
+              <p class="modal-category" id="modal-category"></p>
+              <div class="modal-description" id="modal-description"></div>
+              <div class="modal-technologies" id="modal-technologies"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- REFERENCES -->
+      <article class="references" data-page="references">
+        <header>
+          <h2 class="h2 article-title">References</h2>
+        </header>
+        <section class="references-list">
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">Gonzalo Troncoso</h4>
+            <p class="reference-position">Manager, Open Wine</p>
+            <a href="tel:+593995093723" class="reference-phone">+593 995 093 723</a>
+          </div>
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">Guido Rada</h4>
+            <p class="reference-position">Sembrando Esperanza Foundation</p>
+            <a href="tel:+593995093723" class="reference-phone">+593 995 093 723</a>
+          </div>
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">José Daniel Rubio</h4>
+            <p class="reference-position">Freelance Hiring</p>
+            <a href="tel:+593960535716" class="reference-phone">+593 96 053 5716</a>
+          </div>
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">Teodoro Wojtek (Doro)</h4>
+            <p class="reference-position">Ninblu - Partner, Co-founder</p>
+            <a href="tel:+593999709038" class="reference-phone">+593 99 970 9038</a>
+          </div>
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">Cristina Naranjo</h4>
+            <p class="reference-position">Audiovisual Production Mentor UPS</p>
+            <a href="tel:+593998578694" class="reference-phone">+593 99 857 8694</a>
+          </div>
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">Esteban Plaza</h4>
+            <p class="reference-position">Design, Animation and 3D Printing Mentor UPS</p>
+            <a href="tel:+593996360224" class="reference-phone">+593 99 636 0224</a>
+          </div>
+          <div class="reference-item content-card">
+            <h4 class="h4 reference-name">Diego Proaño</h4>
+            <p class="reference-position">Web Design and Development Mentor UPS</p>
+            <a href="tel:+593984352070" class="reference-phone">+593 98 435 2070</a>
+          </div>
+        </section>
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-info">
+          <h3 class="h3 form-title">Contact Information</h3>
+          <div class="contact-details">
+            <p><strong>Email:</strong> jtroncosoart@gmail.com</p>
+            <p><strong>Teléfono:</strong> +593 98 424 5139</p>
+            <p><strong>Location:</strong> Quito, Ecuador</p>
+            <p><strong>Availability:</strong> Freelance/Projects</p>
+            <p><strong>Modality:</strong> Remote/On-site</p>
+            <p><strong>Response time:</strong> 24-48 hours</p>
+          </div>
+        </section>
+
+        <section class="social-links">
+          <h3 class="h3 form-title">Social Media</h3>
+            <div class="social-buttons">
+              <a href="https://www.instagram.com/sir_mayoneso" class="social-button" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <span>Instagram</span>
+              </a>
+              <a href="https://www.linkedin.com/in/javier-troncoso-3a0757267" class="social-button" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://wa.me/+593984245139" class="social-button" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          <div class="footer-copyright">
+            Javier Troncoso ©, All rights reserved
+          </div>
+        </section>
+        <!-- <section class="contact-form-section">
+          <h3 class="h3 form-title">Send me a message</h3>
+          <form id="contact-form" class="contact-form">
+            <div class="input-wrapper">
+              <input 
+                type="text" 
+                name="name" 
+                class="form-input" 
+                placeholder="Your name and surname" 
+                required>
+              <input 
+                type="email" 
+                name="email" 
+                class="form-input" 
+                placeholder="Your email" 
+                required>
+              </div>
+        <textarea 
+          name="message" 
+          class="form-input" 
+          placeholder="Write your message here..." 
+          rows="6"
+          required>
+        </textarea>
+    
+        <button type="submit" class="form-btn">
+          <ion-icon name="paper-plane-outline"></ion-icon>
+          <span>Send message</span>
+        </button>
+        </form>
+
+      <p class="form-note">
+        <ion-icon name="mail-outline"></ion-icon>
+        Your message will go directly to my email
+        </p>
+      </section> -->
+    </article>
+    <!-- Botón Scroll to Top -->
+    <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Volver arriba">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </button>
+  </div>
+</main>
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
